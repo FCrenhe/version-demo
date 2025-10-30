@@ -1,0 +1,6 @@
+curl -LsSf https://astral.sh/uv/install.sh | sh
+默认会安装到 ~/.local/bin/uv
+
+
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
